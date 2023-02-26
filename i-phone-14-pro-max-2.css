@@ -1,0 +1,390 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.comments,
+.iphone-14-pro-max-2-child {
+  position: absolute;
+  top: 96.5px;
+  left: 90px;
+  width: 337px;
+  height: 66px;
+}
+.comments {
+  top: 127px;
+  left: 417px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  display: none;
+}
+.iphone-14-pro-max-2-item {
+  position: absolute;
+  top: 164.5px;
+  left: -1.5px;
+  border-top: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 432px;
+  height: 1px;
+}
+.iphone-14-pro-max-2-inner {
+  position: absolute;
+  top: 88px;
+  left: 0;
+  width: 429px;
+  height: 3px;
+}
+.image-5-icon {
+  position: relative;
+  border-radius: 39px;
+  width: 343px;
+  height: 356px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image-1-icon,
+.image-2-icon,
+.image-6-icon {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 364px;
+  height: 327.6px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image-1-icon,
+.image-6-icon {
+  height: 356px;
+}
+.image-6-icon {
+  width: 323.89px;
+}
+.image-5-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1649px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 78px;
+}
+.vertical-scrol {
+  position: absolute;
+  top: 203px;
+  left: 34px;
+  width: 364px;
+  height: 753px;
+}
+.frame-child {
+  position: relative;
+  width: 46px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.frame-item {
+  width: 47px;
+  height: 46px;
+}
+.frame-child2,
+.frame-item,
+.image-4-icon {
+  position: relative;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image-4-icon {
+  border-radius: var(--br-4xl);
+  width: 44px;
+  height: 44px;
+}
+.frame-child2 {
+  width: 50px;
+  height: 50px;
+}
+.image-3-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.horizontal-bar-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 444px;
+  height: 50px;
+}
+.horizontal-bar {
+  position: relative;
+  width: 444px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.horizontal-bar-parent {
+  position: absolute;
+  top: 105px;
+  left: 11px;
+  width: 419px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23px;
+}
+.round-navigation-more-vert {
+  position: absolute;
+  height: 4.74%;
+  width: 10.23%;
+  top: 4.51%;
+  right: 0.7%;
+  bottom: 90.75%;
+  left: 89.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.healthy-hangouts-logos-transpa-icon {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 146px;
+  height: 114px;
+  object-fit: cover;
+}
+.status-bar {
+  position: absolute;
+  top: calc(50% - 17px);
+  left: 14px;
+  background-color: var(--color-silver-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--label-color-light-primary);
+  box-sizing: border-box;
+  width: 430px;
+  height: 38px;
+}
+.right-side-icon4 {
+  position: absolute;
+  top: 13px;
+  left: calc(50% + 308px);
+  width: 72px;
+  height: 13px;
+}
+.sb-icon-geo4,
+.time4 {
+  line-height: 21px;
+  font-weight: 900;
+}
+.time4 {
+  position: relative;
+  letter-spacing: -0.32px;
+}
+.sb-icon-geo4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.masters-status-bar-parts-a4 {
+  position: relative;
+  width: 16px;
+  height: 21px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-xs);
+}
+.time-geo4 {
+  position: absolute;
+  top: 14px;
+  left: calc(50% - 22.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.masters-status-bar-parts-l4 {
+  position: absolute;
+  top: -5px;
+  left: -13px;
+  backdrop-filter: blur(56px);
+  width: 96px;
+  height: 44px;
+}
+.group-icon3,
+.nav-part-1 {
+  position: absolute;
+  top: -0.5px;
+  left: 52px;
+  width: 504px;
+  height: 102px;
+}
+.group-icon3 {
+  height: 89.07%;
+  width: 76.7%;
+  top: 5.46%;
+  right: 11.65%;
+  bottom: 5.47%;
+  left: 11.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notification-13 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-800);
+  top: 17.43px;
+  left: 224.53px;
+  width: 25.55px;
+  height: 26.14px;
+  opacity: 0.5;
+}
+.group-icon4,
+.notification-13,
+.profile-13 {
+  position: absolute;
+  overflow: hidden;
+}
+.group-icon4 {
+  height: 85.83%;
+  width: 69%;
+  top: 7.55%;
+  right: 17.27%;
+  bottom: 6.62%;
+  left: 13.73%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.profile-13 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-snow);
+  top: 17.43px;
+  left: 289.45px;
+  width: 25.55px;
+  height: 26.14px;
+  opacity: 0.5;
+}
+.group-child28 {
+  position: absolute;
+  top: 54.46px;
+  left: 11.64px;
+  width: 4.26px;
+  height: 4.36px;
+}
+.add-icon5,
+.group-child29 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 59.61px;
+  height: 61px;
+}
+.add-icon5 {
+  top: 14.16px;
+  left: 13.84px;
+  width: 31.93px;
+  height: 32.68px;
+  overflow: hidden;
+}
+.ellipse-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 127.66px;
+  width: 59.61px;
+  height: 61px;
+}
+.union-icon3 {
+  position: relative;
+  width: 22.89px;
+  height: 25.46px;
+}
+.graph-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-800);
+  top: 17.43px;
+  left: 64.86px;
+  width: 25.55px;
+  height: 26.14px;
+  opacity: 0.5;
+}
+.graph-1,
+.home2,
+.vector-icon6 {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon6 {
+  height: 91.67%;
+  width: 91.67%;
+  top: 4.17%;
+  right: 4.17%;
+  bottom: 4.17%;
+  left: 4.17%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.home2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 39.34%;
+  width: 7.62%;
+  top: 31.15%;
+  right: 92.38%;
+  bottom: 29.51%;
+  left: 0;
+}
+.nav-part-2,
+.notification-1-parent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 315px;
+  height: 61px;
+}
+.nav-part-2 {
+  top: 30px;
+  left: 95px;
+}
+.nav-bar {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 267px);
+  width: 469px;
+  height: 92px;
+}
+.iphone-14-pro-max-2 {
+  position: relative;
+  background-color: var(--white);
+  width: 430px;
+  height: 932px;
+  overflow-y: auto;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: right;
+  font-size: var(--font-size-xl);
+  color: var(--label-color-light-primary);
+  font-family: var(--font-poppins);
+}
