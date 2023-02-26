@@ -1,0 +1,348 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.iphone-14-pro-max-1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 446px;
+  height: 339px;
+}
+.iphone-14-pro-max-1-item {
+  position: absolute;
+  top: 80.54px;
+  left: 139.5px;
+  width: 150.02px;
+  height: 147.41px;
+}
+.sign-up {
+  position: absolute;
+  top: calc(50% - 265px);
+  left: calc(50% - 77px);
+  font-size: var(--font-size-5xl);
+  line-height: 289.5%;
+  font-weight: 600;
+  color: var(--color-darkslategray);
+  text-align: center;
+  display: inline-block;
+  width: 154px;
+}
+.iphone-14-pro-max-1-inner {
+  position: absolute;
+  top: 851.5px;
+  left: 0;
+  width: 504px;
+  height: 102px;
+}
+.iphone-14-pro-max-1-child1 {
+  position: absolute;
+  top: 88.3px;
+  left: 147.81px;
+  width: 134.39px;
+  height: 131.89px;
+}
+.logo {
+  position: absolute;
+  top: 140px;
+  left: 192px;
+  font-weight: 600;
+  color: var(--white);
+}
+.iphone-14-pro-max-1-child2 {
+  position: absolute;
+  top: calc(50% - 466px);
+  left: 0;
+  background-color: var(--color-silver-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--label-color-light-primary);
+  box-sizing: border-box;
+  width: 430px;
+  height: 38px;
+}
+.right-title {
+  position: absolute;
+  top: 46px;
+  left: 408px;
+  font-size: 28px;
+  letter-spacing: 0.36px;
+  line-height: 34px;
+  text-align: right;
+}
+.or-login-with {
+  position: absolute;
+  top: 821px;
+  left: 147px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 110px;
+}
+.vector-icon7 {
+  position: absolute;
+  height: 1.26%;
+  width: 2.85%;
+  top: 89.18%;
+  right: 36.05%;
+  bottom: 9.56%;
+  left: 61.11%;
+  overflow: hidden;
+}
+.vector-icon7,
+.vector-icon8,
+.vector-icon9 {
+  max-width: 100%;
+  max-height: 100%;
+}
+.vector-icon8 {
+  position: absolute;
+  height: 1.07%;
+  width: 4.61%;
+  top: 89.69%;
+  right: 36.93%;
+  bottom: 9.24%;
+  left: 58.46%;
+  overflow: hidden;
+}
+.vector-icon9 {
+  height: 1.21%;
+  width: 1.28%;
+  top: 88.82%;
+  right: 40.58%;
+  bottom: 9.97%;
+  left: 58.14%;
+}
+.frame-div,
+.vector-icon10,
+.vector-icon9 {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon10 {
+  height: 1.07%;
+  width: 4.63%;
+  top: 88.09%;
+  right: 36.91%;
+  bottom: 10.84%;
+  left: 58.46%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.frame-div {
+  top: 372px;
+  left: 66px;
+  width: 297px;
+  height: 414px;
+}
+.sb-icon-geo5,
+.time5 {
+  line-height: 21px;
+  font-weight: 900;
+}
+.time5 {
+  position: relative;
+  letter-spacing: -0.32px;
+}
+.sb-icon-geo5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.masters-status-bar-parts-a5 {
+  position: relative;
+  width: 16px;
+  height: 21px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-xs);
+}
+.time-geo5 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 204px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.time-geo-wrapper,
+.top2 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 430px;
+  height: 921px;
+  overflow: hidden;
+}
+.top2 {
+  top: 6px;
+  left: 13px;
+  height: 929px;
+}
+.masters-status-bar-parts-l5 {
+  position: absolute;
+  top: -6px;
+  left: -13px;
+  backdrop-filter: blur(56px);
+  width: 96px;
+  height: 44px;
+  text-align: right;
+}
+.right-side-icon5 {
+  position: absolute;
+  top: 11px;
+  left: calc(50% + 131px);
+  width: 72px;
+  height: 13px;
+}
+.sign-up-frame {
+  position: absolute;
+  top: 290.5px;
+  left: 19px;
+  border-radius: 72px;
+  background-color: rgba(196, 196, 196, 0.01);
+  box-shadow: 0 48.970191955566406px 70.32px -45.2px rgba(255, 255, 255, 0.5) inset,
+    0 8.789523124694824px 13.81px -5.02px #fff inset,
+    0-102.9629898071289px 85.38px -80.36px rgba(96, 68, 144, 0.3) inset,
+    0 123.0533218383789px 125.56px -60.27px rgba(202, 172, 255, 0.3) inset,
+    0 5.022584438323975px 22.6px rgba(154, 146, 210, 0.3) inset,
+    0 1.2556461095809937px 50.23px rgba(227, 222, 255, 0.2) inset;
+  backdrop-filter: blur(113.01px);
+  width: 392px;
+  height: 515px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 372px;
+  left: 91px;
+  border-radius: var(--br-3xs);
+  width: 232px;
+  height: 44px;
+}
+.iphone-14-pro-max-1-child3,
+.iphone-14-pro-max-1-child4,
+.iphone-14-pro-max-1-child5 {
+  position: absolute;
+  top: 445px;
+  left: 91px;
+  border-radius: var(--br-3xs);
+  width: 232px;
+  height: 44px;
+}
+.iphone-14-pro-max-1-child4,
+.iphone-14-pro-max-1-child5 {
+  top: 512px;
+}
+.iphone-14-pro-max-1-child5 {
+  top: 585px;
+}
+.full-name {
+  top: 378px;
+  left: 103px;
+  width: 215.03px;
+  height: 30px;
+}
+.email,
+.full-name,
+.password,
+.username {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: absolute;
+  color: var(--color-gray-700);
+  text-align: left;
+  display: inline-block;
+}
+.email {
+  top: 450.67px;
+  left: 102.9px;
+  width: 207.1px;
+  height: 27.03px;
+  transform: rotate(-0.18deg);
+  transform-origin: 0 0;
+}
+.password,
+.username {
+  top: 518px;
+  left: 103px;
+  width: 215.95px;
+  height: 30px;
+}
+.password {
+  top: 590px;
+  width: 224px;
+  height: 36px;
+}
+.iphone-14-pro-max-1-child6 {
+  position: absolute;
+  top: 657px;
+  left: 91px;
+  border-radius: var(--br-3xs);
+  width: 232px;
+  height: 44px;
+}
+.iphone-14-pro-max-1-child7,
+.repeat-password {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.repeat-password {
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  top: 662px;
+  left: 97.33px;
+  color: var(--color-gray-700);
+  text-align: center;
+  display: inline-block;
+  width: 155.42px;
+  height: 33.5px;
+}
+.iphone-14-pro-max-1-child7 {
+  cursor: pointer;
+  padding: 0;
+  top: 735px;
+  left: 132.5px;
+  border-radius: 15px;
+  background: linear-gradient(101.69deg, #167fca, #094067);
+  width: 149px;
+  height: 39px;
+}
+.iphone-14-pro-max-1,
+.login {
+  text-align: left;
+  font-family: var(--font-poppins);
+}
+.login {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 735.5px;
+  left: 173.89px;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--white);
+  display: inline-block;
+  width: 73px;
+  height: 38px;
+}
+.iphone-14-pro-max-1 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 932px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--label-color-light-primary);
+}
