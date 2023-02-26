@@ -1,0 +1,69 @@
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-dm-sans: "DM Sans";
+  --font-space-grotesk: "Space Grotesk";
+  --font-sf-pro-display: "SF Pro Display";
+  --font-sf-pro-text: "SF Pro Text";
+
+  /* font sizes */
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 15px;
+  --font-size-xl: 16px;
+  --font-size-2xl: 18px;
+  --font-size-3xl: 20px;
+  --font-size-4xl: 22px;
+  --font-size-5xl: 40px;
+  --font-size-6xl: 48px;
+
+  /* Colors */
+  --white: #fff;
+  --label-color-light-primary: #000;
+  --color-darkgray: #afabab;
+  --color-gray-100: #8c8c8c;
+  --color-gray-200: #1e2438;
+  --color-gray-300: #252525;
+  --color-gray-400: #181818;
+  --color-gray-500: #171717;
+  --bl: #061428;
+  --color-gray-700: rgba(0, 0, 0, 0.5);
+  --color-gray-800: rgba(255, 255, 255, 0);
+  --t3: #6d737a;
+  --gray: #505050;
+  --color-snow: rgba(254, 250, 250, 0);
+  --color-silver-100: #c4c4c4;
+  --color-darkblue: #05028f;
+  --color-mediumslateblue-100: #7042c9;
+  --color-darkmagenta-100: #771f98;
+  --color-darkmagenta-200: rgba(119, 31, 152, 0.72);
+  --color-whitesmoke-100: #f1f1f1;
+  --color-whitesmoke-200: #f5eded;
+  --color-mediumpurple-100: #b26bcd;
+  --color-mediumpurple-200: rgba(178, 107, 205, 0.77);
+  --t1: #d6e1ef;
+  --color-cornflowerblue-100: #197bd2;
+  --color-lightseagreen: #0db1ad;
+  --color-palevioletred: #d2416e;
+  --color-darkslategray: #094067;
+
+  /* Gaps */
+  --gap-sm: 2px;
+  --gap-md: 7px;
+  --gap-lg: 10px;
+
+  /* border radiuses */
+  --br-5xs: 6px;
+  --br-4xs: 7px;
+  --br-3xs: 10px;
+  --br-2xs: 14px;
+  --br-xs: 18px;
+  --br-sm: 20px;
+  --br-md: 24px;
+  --br-lg: 30.39px;
+  --br-xl: 30px;
+  --br-2xl: 35px;
+  --br-3xl: 39.57px;
+  --br-4xl: 250px;
+}
