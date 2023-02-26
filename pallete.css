@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.pallete-child {
+  position: absolute;
+  top: 417px;
+  left: 362px;
+  width: 141.47px;
+  height: 604.02px;
+}
+.pallete {
+  position: relative;
+  width: 100%;
+  height: 2537px;
+  overflow: hidden;
+}
