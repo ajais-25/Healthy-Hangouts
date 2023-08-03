@@ -27,7 +27,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #F5F5F5;
-    /* box-shadow: 50 50 100px rgba(0, 0, 0, .714); */
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 68px;
@@ -54,11 +53,6 @@ body {
     font-size: 35px;
     text-align: center;
     padding: 10px 0 30px 0;
-}
-
-.two-forms {
-    display: flex;
-    gap: 10px;
 }
 
 .input-field {

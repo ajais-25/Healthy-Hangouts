@@ -18,22 +18,20 @@ body {
 .register-form {
     display: flex;
     justify-content: center;
-    margin-top: 110px;
+    margin-top: 50px;
 }
 
 .register-container {
-    height: 550px;
-    width: 550px;
+    height: 620px;
+    width: 600px;
     display: flex;
     flex-direction: column;
-    backdrop-filter: blur(10px);
-    box-shadow: 50 50 100px rgba(0, 0, 0, .714);
+    background-color: #F5F5F5;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 58px;
-    border-radius: 40px;
-    border: 2px solid rgba(18, 17, 17, 0.5);
-    transition: .4s ease-in-out;
+    padding-top: 68px;
+    border-radius: 20px;
+    border: 1px solid rgba(68, 66, 66, 0.312);
 }
 
 .top span {
@@ -59,7 +57,7 @@ body {
 
 .two-forms {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .input-field {
@@ -69,10 +67,10 @@ body {
     height: 50px;
     width: 100%;
     padding: 0 10px 0 45px;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    border-radius: 30px;
+    border: 1px solid rgba(227, 213, 213, 0.8);
+    box-shadow: 2px 2px 4px rgba(159, 155, 155, 0.579);
+    border-radius: 10px;
     outline: none;
-    transition: .2s ease;
 }
 
 .input-field:hover, .input-field:focus {
@@ -96,17 +94,24 @@ body {
     color: black;
     height: 45px;
     width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    border-radius: 30px;
+    border: none;
+    border-radius: 10px;
     outline: none;
-    background: rgba(255, 255, 255, 0.7);
+    background-color: #b970d4;
+    box-shadow: 2px 2px 4px rgba(159, 155, 155, 0.579);
+    color: white;
     cursor: pointer;
-    transition: .3s ease-in-out;
+    transition: background-color 0.15s ease-in-out,
+                box-shawdow 0.15s ease-in-out;
 }
 
 .submit:hover {
-    background: rgba(255, 255, 255, 0.5);
+    background-color: #cb7ae9d6;
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.submit:active {
+    background-color: #cb7ae9b9;
 }
 
 .two-col {
@@ -115,20 +120,12 @@ body {
     color: #514c4c;
     font-size: small;
     margin-top: 15px;
+    margin-left: 3px;
 }
 
 .two-col .one {
     display: flex;
     gap: 5px;
-}
-
-.two label a {
-    text-decoration: none;
-    color: #514c4c;
-}
-
-.two label a:hover {
-    text-decoration: underline;
 }
 
 @media only screen and (max-width: 786px) {
