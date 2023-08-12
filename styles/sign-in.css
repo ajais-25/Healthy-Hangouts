@@ -169,3 +169,15 @@ body {
         background: rgba(255, 255, 255, 0.15);
     }
 }
+
+@media (min-height: 800px) and (max-height: 1000px) {
+    .login-form {
+        margin-top: 195px;
+    }
+}
+
+@media (min-height: 1001px) {
+    .login-form {
+        margin-top: 205px;
+    }
+}
