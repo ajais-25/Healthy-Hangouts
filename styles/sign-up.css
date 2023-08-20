@@ -128,7 +128,7 @@ body {
     gap: 5px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 400px) and (max-width: 549.99px) {
     .register-container {
         width: 480px;
     }
