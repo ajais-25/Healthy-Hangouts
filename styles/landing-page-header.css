@@ -1,0 +1,96 @@
+.header {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgb(208, 208, 208);
+    box-shadow: 0 2px rgba(171, 171, 171, 0.278);
+}
+
+.logo-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.logo {
+    width: 180px;
+}
+
+.home-link:hover,
+.discover-link:hover,
+.vision-link:hover,
+.about-us-link:hover {
+    border-bottom: 2px solid #557153;
+}
+
+.nav-buttons {
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-button-elements {
+    white-space: nowrap;
+}
+
+.logo-picture,
+.nav-buttons,
+.signup-login-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.home-link,
+.discover-link,
+.vision-link {
+    margin-right: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.about-us-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.sign-in-button {
+    width: 110px;
+    height: 40px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(165, 86, 255);
+    border: none;
+    border-radius: 40px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.sign-in-button:hover {
+    background-color: rgba(165, 86, 255, 0.7);
+}
+
+.sign-in-button:active {
+    background-color: rgba(165, 86, 255, 0.5);
+}
+
+@media (max-width: 750px) {
+    .home-link,
+    .discover-link,
+    .vision-link,
+    .about-us-link {
+        display: none;
+    }
+}
