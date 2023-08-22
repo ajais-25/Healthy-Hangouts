@@ -94,3 +94,34 @@ body {
     margin-right: 50px;
     width: 500px;
 }
+
+.vision {
+    height: 100%;
+    background-color: #E5D9B6;    
+    padding-bottom: 180px;
+}
+
+.vision-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 188px;
+}
+
+.vision-heading-container {
+    margin-bottom: 50px;
+}
+
+.vision-heading {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #557153;
+}
+
+.vision-normal-text {
+    font-size: 24px;
+    text-align: center;
+    color: #557153;
+}
