@@ -125,3 +125,54 @@ body {
     text-align: center;
     color: #557153;
 }
+
+.about-us {
+    background-color: #362706bc;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-heading-container {
+    margin-bottom: 30px;
+}
+
+.main-heading-container {
+    margin-bottom: 25px;
+}
+
+.main-about-us {
+    color: #EEF2E6;
+    letter-spacing: 0.5px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-us-heading {
+    color: #EEF2E6;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.about-us-normal-text {
+    color: #EEF2E6;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+}
