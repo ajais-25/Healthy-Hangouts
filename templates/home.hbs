@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Homepage with Animations</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2em;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        /* Post */
+        .post {
+            border: 1px solid #ccc;
+            margin-bottom: 1em;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .post h2 {
+            color: #333;
+            margin-bottom: 0.5em;
+        }
+
+        .post p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Like Animation */
+        .heart-icon {
+            color: #e74c3c;
+            font-size: 1.2em;
+            transition: transform 0.2s;
+        }
+
+        .like-button {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .like-button:hover .heart-icon {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Healthy Hangouts</h1>
+        <p>Connect and share with friends</p>
+    </header>
+    
+    <div class="container">
+        <div class="post">
+            <h2>John Doe</h2>
+            <p>Just had a great time at the beach! 🌞 #SummerVibes</p>
+            <div class="like-button">
+                <span class="heart-icon">❤️</span>
+            </div>
+        </div>
+        <div class="post">
+            <h2>Jane Smith</h2>
+            <p>Enjoying a delicious meal at my favorite restaurant. 🍔🍟 #Foodie</p>
+            <div class="like-button">
+                <span class="heart-icon">❤️</span>
+            </div>
+        </div>
+        <!-- More posts... -->
+    </div>
+</body>
+</html>
