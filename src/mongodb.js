@@ -2,10 +2,10 @@ const mongoose=require("mongoose")
 
 mongoose.connect("mongodb+srv://Rahul:Wbgho3fh9GZq6JmZ@cluster0.vtxzbid.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>{
-    console.log("mongodb connected");
+    console.log("mongodb connected huehue");
 })
 .catch(()=>{
-    console.log('failed to connect');
+    console.log('failed to connect huehue');
 })
 
 const logInSchema=new mongoose.Schema({
