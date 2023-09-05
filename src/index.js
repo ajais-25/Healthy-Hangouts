@@ -49,9 +49,10 @@ async function sendMail(email, link) {
   } catch (error) {
     return error;
   }
-}
+} //email ends here
 
-app.use(express.static("public")); //to load css files and images
+//to load css files and images
+app.use(express.static("public"));
 
 app.use(express.json());
 app.set("view engine", "hbs");
@@ -165,12 +166,22 @@ app.post("/signup", async (req, res) => {
     password: req.body.password,
     confirmpassword: req.body.confirmpassword,
   };
-  await collection.insertMany([data]);
-  if (req.body.confirmpassword === req.body.password) {
-    res.render("home"); //directed to home page after signup
-  } else {
-    res.send("password and confirm password must be same!!!");
-  }
+
+  try {
+    const userExists = await collection.findOne({ email: req.body.email });
+    if (userExists) {
+      return res
+        .status(200)
+        .send({ message: "User email already registered", success: false });
+    } else {
+      if (req.body.confirmpassword === req.body.password) {
+        collection.insertMany([data]);
+        res.render("home"); //directed to home page after signup
+      } else {
+        res.send("password and confirm password must be same!!!");
+      }
+    }
+  } catch (error) {}
 });
 
 app.post("/signin", async (req, res) => {
