@@ -119,7 +119,7 @@ app.post("/reset-password/:id/:token", async (req, res, next) => {
       }
     );
     console.log("Databse fetch : Normal".green);
-    res.render("sign-in");
+    res.redirect("/signin");
   } else {
     res.send("Password and Confirm Password should be same");
     console.log("Warning! password match: Failure".red);
@@ -187,17 +187,20 @@ app.post("/signup", async (req, res) => {
 app.post("/signin", async (req, res) => {
   try {
     const check = await collection.findOne({ email: req.body.email });
-
-    if (check.password === req.body.password) {
-      res.render("home");
+    if (!check) {
+      res.send("User does not exist, Please Sign Up first");
+    }
+    const user = await collection.findOne({ password: req.body.password });
+    if (!user) {
+      res.send("<h2>Wrong Password RETRY!</h2>");
     } else {
-      alert("Wrong Password");
+      console.log(user.email);
+      res.render("home");
     }
   } catch {
-    res.send("Wrong Details");
+    console.log("error");
+    res.status(500).render("sign-in");
   }
-
-  res.render("home"); //directed to home page after login
 });
 
 app.listen(process.env.PORT || 3000, () => {
